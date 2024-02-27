@@ -1,5 +1,5 @@
 import { get, merge, orderBy, pick, pickBy } from "lodash-es";
-import _utils from "spreadable/src/utils.js";
+import _utils from "spreadable-ms/src/utils.js";
 import errors from "./errors.js";
 
 const utils = Object.assign({}, _utils);

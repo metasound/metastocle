@@ -1,6 +1,6 @@
 import { merge, camelCase, capitalize, get, pickBy, set } from "lodash-es";
 import sizeof from "object-sizeof";
-import loki from "spreadable/src/db/transports/loki/index.js";
+import loki from "spreadable-ms/src/db/transports/loki/index.js";
 import { v1 as uuidv1 } from "uuid";
 import errors from "../../../errors.js";
 import utils from "../../../utils.js";

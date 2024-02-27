@@ -1,9 +1,10 @@
 import chalk from "chalk";
 import yargs from "yargs";
 import utils from "./utils.js";
-import * as _actions from "spreadable/bin/actions.js";
+import * as _actions from "spreadable-ms/bin/actions.js";
+import { hideBin } from 'yargs/helpers'
 
-const argv = yargs(process.argv).argv;
+const argv = yargs(hideBin(process.argv)).argv;
 const actions = Object.assign({}, _actions);
 
 /**

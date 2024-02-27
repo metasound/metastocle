@@ -1,4 +1,4 @@
-import express from "spreadable/src/server/transports/express/index.js";
+import express from "spreadable-ms/src/server/transports/express/index.js";
 import routes from "./routes.js";
 import routesClient from "./client/routes.js";
 import routesApi from "./api/routes.js";

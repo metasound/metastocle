@@ -1,4 +1,4 @@
-import Service from "spreadable/src/service.js";
+import Service from "spreadable-ms/src/service.js";
 import utils from "../../../utils.js";
 
 export default (Parent) => {

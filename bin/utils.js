@@ -1,4 +1,4 @@
-import _utils from "spreadable/bin/utils.js";
+import _utils from "spreadable-ms/bin/utils.js";
 import scrUtils from "../src/utils.js";
 
 const utils = Object.assign({}, _utils);

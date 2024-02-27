@@ -1,5 +1,5 @@
 import merge from "lodash-es/merge.js";
-import _schema from "spreadable/src/schema.js";
+import _schema from "spreadable-ms/src/schema.js";
 
 const schema = Object.assign({}, _schema);
 

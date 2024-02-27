@@ -1,6 +1,6 @@
 import path from "path";
 import merge from "lodash-es/merge.js";
-import spWebpackConfig from "spreadable/webpack.client.js";
+import spWebpackConfig from "spreadable-ms/webpack.client.js";
 
 const __dirname = new URL('.', import.meta.url).pathname;
 

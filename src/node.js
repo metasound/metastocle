@@ -1,5 +1,5 @@
 import { assign, flatten, get, groupBy, isPlainObject, merge, omitBy, orderBy } from "lodash-es";
-import node from "spreadable/src/node.js";
+import node from "spreadable-ms/src/node.js";
 import pack from "../package.json" with { type: "json" };
 import collection from "./collection/transports/collection/index.js";
 import loki from "./db/transports/loki/index.js";

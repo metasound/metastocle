@@ -75,6 +75,6 @@
     "url": "https://github.com/ortexx/metastocle"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=20.0.0"
   }
 }
